@@ -1,0 +1,49 @@
+\doxysection{Connect.\+h}
+\hypertarget{Connect_8h_source}{}\label{Connect_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <sys/types.h>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <cstdlib>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <cstring>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ <unistd.h>}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <sys/socket.h>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <netinet/in.h>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <arpa/inet.h>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <fstream>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00012\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00013\ \textcolor{preprocessor}{\#include\ <locale>}}
+\DoxyCodeLine{00014\ \textcolor{preprocessor}{\#include\ <codecvt>}}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{using\ namespace\ }std;}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00018\ \textcolor{comment}{//\ Заливка\ текста\ при\ выводе\ в\ консоль:\ https://stackoverflow.com/a/21786287/21356333\ }}
+\DoxyCodeLine{00019\ \textcolor{comment}{//\ string\ CSI\ =\ "{}\(\backslash\)x1B["{};}}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classConnect}{Connect}}\{}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{char}\ *ip\_addr;}
+\DoxyCodeLine{00035\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{char}\ *port;}
+\DoxyCodeLine{00036\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ name\_original\_file;}
+\DoxyCodeLine{00037\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ name\_result\_file;}
+\DoxyCodeLine{00038\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ name\_auto\_file;}
+\DoxyCodeLine{00039\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ username;}
+\DoxyCodeLine{00040\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{string}\ password;}
+\DoxyCodeLine{00041\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classConnect_ab11519fa97fb1a1ea375970011fc3d36}{Connect\_to\_server}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *ip\_addr,\ \textcolor{keywordtype}{int}\ port);}
+\DoxyCodeLine{00042\ \ \ \ \ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classConnect_a03a346851621f86f28af7347108253aa}{GetLoginPassword}}();}
+\DoxyCodeLine{00043\ }
+\DoxyCodeLine{00044\ \};\ \ }
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00050\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classerror__proj}{error\_proj}}:\ \textcolor{keyword}{public}\ std::invalid\_argument}
+\DoxyCodeLine{00051\ \{}
+\DoxyCodeLine{00052\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classerror__proj}{error\_proj}}\ (\textcolor{keyword}{const}\ std::string\&\ what\_arg):}
+\DoxyCodeLine{00054\ \ \ \ \ \ \ \ \ std::invalid\_argument(what\_arg)\ \{\}}
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keyword}{explicit}\ \mbox{\hyperlink{classerror__proj}{error\_proj}}\ (\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ what\_arg):}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ std::invalid\_argument(what\_arg)\ \{\}}
+\DoxyCodeLine{00057\ \};}
+\DoxyCodeLine{00058\ }
+
+\end{DoxyCode}

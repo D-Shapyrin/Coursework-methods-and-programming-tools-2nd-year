@@ -1,0 +1,38 @@
+\doxysection{Класс error\+\_\+proj}
+\hypertarget{classerror__proj}{}\label{classerror__proj}\index{error\_proj@{error\_proj}}
+
+
+Класс обработки ошибок \doxylink{classerror__proj}{error\+\_\+proj}.  
+
+
+
+
+{\ttfamily \#include $<$Connect.\+h$>$}
+
+
+
+Граф наследования\+:error\+\_\+proj\+:
+% FIG 0
+
+
+Граф связей класса error\+\_\+proj\+:
+% FIG 1
+\doxysubsubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classerror__proj_ab65068ae6a2106e951597f95f09b1314}\label{classerror__proj_ab65068ae6a2106e951597f95f09b1314} 
+{\bfseries error\+\_\+proj} (const std\+::string \&what\+\_\+arg)
+\item 
+\Hypertarget{classerror__proj_acea80b7e94f902038f8b4b892ace6e74}\label{classerror__proj_acea80b7e94f902038f8b4b892ace6e74} 
+{\bfseries error\+\_\+proj} (const char \texorpdfstring{$\ast$}{*}what\+\_\+arg)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Класс обработки ошибок \doxylink{classerror__proj}{error\+\_\+proj}. 
+
+Выводит сообщения об ошибках 
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Connect.\+h\end{DoxyCompactItemize}
