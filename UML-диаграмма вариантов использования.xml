@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram id="lspxeXHr0DfG30U4sCzQ" name="Страница — 1">
+    <mxGraphModel dx="1434" dy="866" grid="1" gridSize="15" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1442" pageHeight="2040" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-6" value="Получение справки о программе" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1" name="Use Case">
+          <mxGeometry x="195" y="225" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-8" value="Расчёт векторов" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1" name="Use Case">
+          <mxGeometry x="195" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-10" value="Аутентификация" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1" name="Use Case">
+          <mxGeometry x="450" y="220" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-11" value="Передача данных о векторах" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1" name="Use Case">
+          <mxGeometry x="450" y="340" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-12" value="Получение результата" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1" name="Use Case">
+          <mxGeometry x="450" y="460" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-6" edge="1" name="Directional Connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="105" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-8" target="WkWwbsa9kH5WD14dkvhj-10" edge="1" name="Directional Connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="350" as="sourcePoint" />
+            <mxPoint x="335" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-8" target="WkWwbsa9kH5WD14dkvhj-11" edge="1" name="Directional Connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="350" as="sourcePoint" />
+            <mxPoint x="335" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-8" target="WkWwbsa9kH5WD14dkvhj-12" edge="1" name="Directional Connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="350" as="sourcePoint" />
+            <mxPoint x="335" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="345" y="365" as="sourcePoint" />
+            <mxPoint x="105" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-10" edge="1" name="Directional Connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="380" as="sourcePoint" />
+            <mxPoint x="705" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-11" edge="1" name="Directional Connector">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="380" as="sourcePoint" />
+            <mxPoint x="690" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WkWwbsa9kH5WD14dkvhj-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="WkWwbsa9kH5WD14dkvhj-12" edge="1" name="LineA">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="380" as="sourcePoint" />
+            <mxPoint x="705" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFCDp4sZwSidCLDAYHfn-1" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" name="Actor" parent="1">
+          <mxGeometry x="45" y="295" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WFCDp4sZwSidCLDAYHfn-2" value="Сервер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" name="Actor" parent="1">
+          <mxGeometry x="715" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
